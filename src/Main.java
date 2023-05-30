@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+      CalculadoraDesigner form = new CalculadoraDesigner();
+        form.setContentPane(form.designer);
+        form.setVisible(true);
+        form.setSize(500,500);
+        form.setTitle("Operação feita");
     }
-}
+    }
